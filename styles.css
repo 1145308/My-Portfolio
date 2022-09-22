@@ -13,6 +13,7 @@ body {
    --good-color: #1d4ed8;
 }
 
+/* @Container */
 
 .container{
     padding-left: 1rem ;
@@ -24,21 +25,62 @@ body {
     max-width: 500px;
 }
 
+
+/* @Links */
+
 .link {
     padding: 0.5rem;
     text-decoration: none;
 }
 
-.primary-key{
+.primary-link{
     background-color:  var(--good-color);
     border-radius: 0.5rem;
     color: white;
 
 }
 
-.Secondary-key{
+.Secondary-link{
     color: var(--good-color);
     border-radius: 0.5rem ;
     border: 1px solid var(--good-color);
 
+}
+
+/* @Lists */
+
+.List-non-bulleted{
+
+    list-style: none;
+
+}
+
+.list-inline{
+    display: inline;
+    padding: 2rem ;
+    color: #1d4ed8;
+}
+
+/* Navigation */
+
+.navigation {
+    background-color: var(--good-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.nav-brand{
+    font-weight: bold;
+}
+
+/* .navigation .nav pills{
+ text-align: right;
+} */
+
+.navigation .nav{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
 }
