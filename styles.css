@@ -35,8 +35,10 @@ hr{
 /* @Links */
 
 .link {
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     text-decoration: none;
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
 }
 
 .primary-link{
@@ -80,22 +82,26 @@ hr{
     font-weight: bold;
 }
 
-/* .navigation .nav pills{
+.navigation .nav pills{
  text-align: right;
-} */
+}
 
 .navigation .nav{
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    /* font-weight: bold; */
     
+}
+
+.navigation .link-active{
+font-weight: bold;
 }
 
 /* image */
 
 .hero{
-    
     padding: 2rem;
+    padding-top: 5rem;
 }
 .hero-img{
     max-width: 450px;
@@ -142,7 +148,7 @@ color: var(--primary-color);
 .footer .link{
     color: white;
 }
- .footer-header{
+.footer .footer-header{
     font-weight: bold;
     font-size: large;
  }
