@@ -24,6 +24,7 @@ hr{
 .container{
     padding-left: 1rem ;
     padding-right: 1rem;
+    padding: 2rem;
     
 }
 
@@ -43,7 +44,7 @@ text-align: center;
     text-decoration: none;
     /* margin-top: 1rem;
     margin-bottom: 1rem; */
-    
+        
 }
 
 .primary-link{
@@ -102,8 +103,8 @@ font-weight: bold;
 /* image */
 
 .hero{
-    padding: 2rem;
-    padding-top: 5rem;
+    /* padding: 1rem; */
+    padding-top: 1rem;
 }
 .hero-img{
     max-width: 450px;
