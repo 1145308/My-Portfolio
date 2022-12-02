@@ -11,7 +11,7 @@ body {
 
 :root{
    --primary-color: #1d4ed8;
-   --grey-color : #687280;
+   --grey-color : #363a3f;
 
 }
 
@@ -24,17 +24,14 @@ hr{
 .container{
     padding-left: 1rem ;
     padding-right: 1rem;
-    padding: 2rem;
+    /* padding: 2rem; */
     
 }
 
 .container-center{
     margin: auto;
     max-width: 500px;
-}
-
-.text{
-text-align: center;
+    text-align: center;
 }
 
 /* @Links */
@@ -60,6 +57,18 @@ text-align: center;
     border: 1px solid var(--primary-color);
     font-weight: bolder;
 }
+
+.text{
+    text-align: center;
+    padding: 1rem;
+    /* padding-bottom: 1rem; */
+    }
+
+
+#link-box{
+  padding: 1rem;
+}
+
 
 /* @Lists */
 
@@ -127,7 +136,7 @@ color: var(--primary-color);
 /* section */
 
 .section{
-    padding: 3rem;
+    padding: 2rem;
     
 }
 
@@ -136,7 +145,8 @@ color: var(--primary-color);
 }
 
 .sect{
-    background-color: #ececea;
+    background-color: #ddddc9;
+    
 }
 
 /* footer */
@@ -160,4 +170,17 @@ color: var(--primary-color);
 
 .footer ul{
     padding-inline-start: 0px;
+}
+
+/* project */
+
+#box{
+    padding: 1rem;
+}
+
+
+
+.part{
+    background-color: #ddddc9;
+    max-width: 200%;
 }
