@@ -11,7 +11,7 @@ body {
 
 :root{
    --primary-color: #1d4ed8;
-   --grey-color : #363a3f;
+   --grey-color : #02060c;
 
 }
 
@@ -178,7 +178,12 @@ color: var(--primary-color);
     padding: 1rem;
 }
 
-
+.dark{
+    color:solid black;
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+}
 
 .part{
     background-color: #ddddc9;
